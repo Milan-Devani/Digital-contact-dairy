@@ -1,0 +1,31 @@
+*{
+  /* position: relative; */
+  margin: 0;
+  padding: 0;
+}
+
+.action {
+  width: 150px;
+}
+
+.form-box {
+  position: absolute;
+  height: 350px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  right: 0;
+  bottom: 0;
+  transform: translate(-50%, -50%) !important;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.seb-box {
+  height: 200px;
+}
+
+.bg-img {
+  margin-top: 0px !important;
+  background-image: url("../img/bg.png");
+  height: 673.5px;
+}
